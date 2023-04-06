@@ -14,7 +14,7 @@ public class Main {
 
     public  Main(){
 
-        String token = "MTA5MDY2OTc0NjAzMjIzNDUzNg.GxbKr1.yYC_LqiLHtXxFEbo7-PA2d5dOsxzThAEyH89JY";
+        String token = "";
         DefaultShardManagerBuilder builder = DefaultShardManagerBuilder.createDefault(token);
         builder.setStatus(OnlineStatus.ONLINE);
         builder.setActivity(Activity.playing("開盲盒"));
